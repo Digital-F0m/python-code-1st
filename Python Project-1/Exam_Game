@@ -1,0 +1,141 @@
+
+print("********** This is Simple Exercises Exam to Enhanced your Knowledge **********")
+print()
+
+while True:
+
+    proceed = input("Do you want to proceed ? Type [OK / Any Char] ")
+    if proceed == "OK" or proceed == "ok": pass
+    else:
+        print("Please Try Again : ")
+        break
+    print()
+
+    print("Read Carefully. ")
+    print()
+    
+
+    print("Simple Mathematics. ")
+    print()
+
+    ans1 = 50
+    ans2 = 1000
+    ans3 = 300
+    ans4 = 800
+    ans5 = 200
+    ans6 = 20
+    ans7 = 30
+    ans8 = 3000
+    ans9 = 2
+    ans10 = 900
+
+    correct = 0
+    incorrect = 0
+
+    #total = [ans1,ans2,ans3,ans4,ans5,ans6,ans7,ans8,ans9,ans10]
+
+
+    answer1 = int(input("1.  25 +  25 = " ))
+    if answer1 == ans1:
+        correct = correct + 1
+        print("Correct!")
+    else:
+        incorrect = incorrect + 1
+        print("Wrong!")
+
+
+
+    answer2 = int(input("2.  500 + 500 = " ))
+    if answer2 == ans2:
+        correct = correct + 1
+        print("Correct! ")
+    else:
+        incorrect = incorrect + 1
+        print("Wrong! ")
+
+
+    answer3 = int(input("3.  150 + 150 = " ))
+    if answer3 == ans3:
+        correct = correct + 1
+        print("Correct! ")
+    else:
+        incorrect = incorrect + 1
+        print("Wrong! ")
+
+
+    answer4 = int(input("4.  400 + 400 = " ))
+    if answer4 == ans4:
+        correct = correct + 1
+        print("Correct! ")
+    else:
+        incorrect = incorrect + 1
+        print("Wrong! ")
+
+
+    answer5 = int(input("5.  100 + 100 = " ))
+    if answer5 == ans5:
+        correct = correct + 1
+        print("Correct! ")
+    else:
+        incorrect = incorrect + 1
+        print("Wrong! ")
+
+
+    answer6 = int(input("6.  10 + 10 = " ))
+    if answer6 == ans6:
+        correct = correct + 1
+        print("Correct! ")
+    else:
+        incorrect = incorrect + 1
+        print("Wrong! ")
+
+
+    answer7 = int(input("7.  15 + 15 = " ))
+    if answer7 == ans7:
+        correct = correct + 1
+        print("Correct! ")
+    else:
+        incorrect = incorrect + 1
+        print("Wrong! ")
+
+
+    answer8 = int(input("8.  1500 + 1500 = " ))
+    if answer8 == ans8:
+        correct = correct + 1
+        print("Correct! ")
+    else:
+        incorrect = incorrect + 1
+        print("Wrong! ")
+
+
+    answer9 = int(input("9.  1 + 1 = " ))
+    if answer9 == ans9:
+        correct = correct + 1
+        print("Correct! ")
+    else:
+        incorrect = incorrect + 1
+        print("Wrong! ")
+
+
+    answer10 = int(input("10.  450 + 450 = " ))
+    if answer10 == ans10:
+        correct = correct + 1
+        print("Correct! ")
+    else:
+        incorrect = incorrect + 1
+        print("Wrong! ")
+
+
+
+    print()
+    print("Your Total Score is : " + str(correct))
+    print("Your Wrong Answer is : " + str(incorrect))
+
+
+    break
+
+
+
+
+
+
